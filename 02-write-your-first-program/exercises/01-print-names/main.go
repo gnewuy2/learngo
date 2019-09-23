@@ -22,7 +22,14 @@ package main
 //  And after that use `go build` and run your program.
 // ---------------------------------------------------------
 
+
+import "fmt"
 func main() {
-	// ?
-	// ?
+	fmt.Println("Yu Weng")
+	fmt.Println("Jesus")
 }
+
+//******* Testing section **********//
+// Method 1: (after setting working directory to current directory) go run main.go 
+// Method 2: (after setting working directory to current directory) go build main.go --which produces the main.exe file in the same directory
+// followed by: .\main.exe
